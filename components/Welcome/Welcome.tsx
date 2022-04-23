@@ -5,7 +5,7 @@ export function Welcome() {
   const { classes } = useStyles();
 
   return (
-    <>
+    <div>
       <Title className={classes.title} align="center" mt={100}>
         Welcome to{' '}
         <Text inherit variant="gradient" component="span">
@@ -20,6 +20,6 @@ export function Welcome() {
         </Anchor>
         . To get started edit index.tsx file.
       </Text>
-    </>
+    </div>
   );
 }
